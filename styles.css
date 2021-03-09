@@ -1,8 +1,12 @@
 *{box-sizing: border-box;}
 body{
-    margin: 0;
-    
+    margin: 0;    
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+h1, h2, p{
+    font-family: 'Poppins', sans-serif;
+}
+
 .header__logo{
     color: #00FA9A;
     margin: 15px;
@@ -107,6 +111,7 @@ body{
 .formulario__label{
     padding-left: 15px;
     position: absolute;
+    text-align:center;
     margin-top: -73px;
     z-index: -20;
     color: rgb(255, 255,255,.9);

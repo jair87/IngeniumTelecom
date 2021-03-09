@@ -3,8 +3,12 @@ body{
     margin: 0;    
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-h1, h2, p{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+h1, h2,{
     font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Roboto Slab', serif;
 }
 
 .header__logo{
@@ -116,6 +120,7 @@ h1, h2, p{
     z-index: -20;
     color: rgb(255, 255,255,.9);
     transition: all 0.2s;
+    width: 460px;
 }
 
 .formulario__submit{
@@ -126,6 +131,10 @@ h1, h2, p{
     border:none;
     border-radius: 30px;
 }
+.formulario__submit:hover{
+background: #00FA9A ;
+
+}    
 .fijar{
     margin-top: -135px;
 }
